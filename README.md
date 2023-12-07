@@ -43,3 +43,8 @@ select fau (if not already) at the top right of the screen for wlan0
 # JavaScript Node.JS API with Droneblocks library @GO1-JS
 Run ```node ./index.js``` while on the robot dog hot spot to get the movement working.
 
+
+# Navigation and Mapping
+VNC into NX board 192.168.123.15 at directory /home/Desktop
+Before running nav.py, first run build_map.sh and build_map_rviz.sh to create custom maps.
+
