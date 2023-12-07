@@ -39,7 +39,7 @@ sudo ifconfig wlan0 up
 
 select fau (if not already) at the top right of the screen for wlan0
  (edited)"
-
+# Movement with the Legs
 # JavaScript Node.JS API with Droneblocks library @GO1-JS
 Run ```node ./index.js``` while on the robot dog hot spot to get the movement working.
 
