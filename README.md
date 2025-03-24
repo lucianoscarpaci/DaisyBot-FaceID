@@ -1,8 +1,8 @@
-# Group1 Project 🚀
+# 🚀 Group1 Project 
 
 Welcome to the Group1 project! This project showcases various functionalities related to robotics, including voice interaction, Wi-Fi setup, movement, and navigation. The Go-1 robot features cutting-edge computer vision capabilities, such as person detection and face recognition, along with a speech recognition module. The project is organized into three main sections: Head Nano, NX Board, and Robot Talk, each with its own set of functionalities and scripts.
 
-## Project Overview 📝
+## 📝 Project Overview 
 
 - **Head Nano**: Code for the Go-1's head, including face recognition and speech recognition.
 - **NX Board**: Code for the Go-1's navigation and mapping capabilities.
@@ -12,7 +12,7 @@ Welcome to the Group1 project! This project showcases various functionalities re
 - **SpeechRecognition**: Code for recognizing speech.
 - **personDetection**: Code for detecting people.
 
-## Directory Structure 📂
+## 📂 Directory Structure 
 
 Below is an overview of the project's directory structure:
 
@@ -51,11 +51,11 @@ Below is an overview of the project's directory structure:
         └── stream_capture.py
 ```
 
-## Robot Talk 🗣️
+## 🗣️ Robot Talk 
 
 The Robot Talk directory contains all the code necessary to enable the Go1 robot to speak. To use this feature, run `python3 talk.py` and replace the variable text with your desired speech. Ensure the robot is connected to Wi-Fi, as it requires the "gTTS" (Google Text to Speech) package.
 
-## Wi-Fi Setup 📶
+## 📶 Wi-Fi Setup 
 
 The Wi-Fi script, known as 'Dog WiFi', should be placed on the Raspberry Pi board's desktop. Execute `sudo python3 wifi.py` on the Raspberry Pi's desktop to configure the Wi-Fi.
 
@@ -87,10 +87,15 @@ The Wi-Fi script, known as 'Dog WiFi', should be placed on the Raspberry Pi boar
 
 Use the JavaScript Node.JS API with the Droneblocks library at `GO1-JS`. Execute `node ./index.js` while connected to the robot dog's hotspot to enable movement.
 
-## Navigation and Mapping 🗺️
+## 🗺️ Navigation and Mapping 
 
 VNC into the NX board at `192.168.123.15` in the `/home/Desktop` directory. Before executing `nav.py`, run `build_map.sh` and `build_map_rviz.sh` to create custom maps.
 
-## Person Detection 🕵️
+## 🕵️ Person Detection
 
 Run `python3 start_vision.sh` to initiate the person detection script. This script utilizes the NX board's camera to detect people and measure their distance from the camera.
+
+## 🚦 Project Status
+
+The project is completed and ready for use.
+
