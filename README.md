@@ -94,3 +94,18 @@ VNC into the NX board at `192.168.123.15` in the `/home/Desktop` directory. Befo
 ## Person Detection 🕵️
 
 Run `python3 start_vision.sh` to initiate the person detection script. This script utilizes the NX board's camera to detect people and measure their distance from the camera.
+
+## 👥 Contributing
+
+A big thank you to our amazing contributors:
+
+- Luciano Scarpaci 🎨
+- Brandon Wetzel 💻
+- Shahima Hossain 📝
+- Caleb Panoch 📚
+- Endian Escott 📊
+
+## 🚦 Project Status
+
+The project is completed and ready for use! 🎉
+
